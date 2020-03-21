@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+#$ cd ~/catkin_ws/src   :create the file in catkin workspace only 
+# nano publisher.py
 import rospy
 from std_msgs.msg import String
 
@@ -20,3 +22,5 @@ if __name__=='__main__':
 	except rospy.ROSInerruptException:
 		pass
 
+#make the file executable by
+#$chmod +x publisher.py
