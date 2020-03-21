@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-#$ cd ~/catkin_ws/src   :create the file in catkin workspace only 
+# run roscore in a new terminal
+# create the file in catkin workspace only by "cd ~/catkin_ws/src
 # nano publisher.py
 import rospy
 from std_msgs.msg import String
