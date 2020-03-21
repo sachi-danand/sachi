@@ -1,0 +1,8 @@
+Section B.2
+The car will know its trajectory taken using a high precision GPS system.
+A good controller should reduce the constraints on mobility, speed of motion, high-speed operation, complex interaction with the environment and typically a lack of prior information.
+
+
+ During each planning cycle, the path planner module generates a number of trajectories from the vehicle’s current location, with a look-ahead distance, depending on the speed and line-of-sight of the vehicle’s on-board sensors, and evaluating each trajectory with respect to some cost function to determine the optimal trajectory.  
+best path for the vehicle to follow while taking into account the constraints of the vehicle’s motion model, waypoints that the vehicle should follow and the traffic environment, including static and dynamic obstacles. Planning can be divided into incremental approaches which try to find the best sequence of state transitions (which are not fully specified from the beginning) by re-using information from previous searches and local ones which attempt to find the best single state transition for the vehicle to follow. 
+An adaptive PID controller can be taken as a good controller. The requirement of the adaptive PID control is control of the system's internal parameters independent of a precise mathematic model and that the parameters can adjust automatically online by real-time performance requirements.
