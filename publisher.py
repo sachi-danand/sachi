@@ -30,3 +30,4 @@ if __name__=='__main__':
 
 #make the file executable by
 #$chmod +x publisher.py
+#make sure to source your env by"source ./catkin_ws/devel/setup.sh
