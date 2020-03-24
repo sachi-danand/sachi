@@ -4,7 +4,7 @@ Roll no.: EP19B010
 
 current POR's: None
 
-Why I want to work in Team: This team deals with many trendy subjects and also by constantly being engaged in some work ,
+Why I want to work in Team: This team deals with many new emerging fields and also by constantly being engaged in some work ,
 I can keep growing and gain knowledge.
 
 Relevent courses : 
