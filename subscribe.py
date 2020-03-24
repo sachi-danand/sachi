@@ -1,3 +1,5 @@
+#change directory to catkin_ws/src
+#cd ~/catkin_ws/src
 #!/usr/bin/env python
 import rospy 
 from std_msgs.msg import String
@@ -12,3 +14,6 @@ def listener():
 
 if __name__=="__main__":
 	listener()
+
+# make the file executable 
+#chmod +x subscribe.py
