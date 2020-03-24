@@ -1,0 +1,14 @@
+Section B.2
+The car will know its trajectory taken using a high precision GPS system or using SLAM mapping.
+For prediction of change in environment is taken care by Extended Kalman filter, because:
+1)It predicts the next state based on previous state only, no need for history of data. (so the 
+initial data should be correctly given)
+2)It is computationally very fast making it suitable for real time problems and it reduces noise,
+ error and uncertainty by giving a gaussian distribution.
+A good controller should reduce the constraints on mobility, speed of motion, high-speed operation,
+ complex interaction with the environment and typically a lack of prior information.
+
+An adaptive PID controller can be taken as a good controller. The requirement of the adaptive PID
+ control is control of the system's internal parameters independent of a precise mathematic model
+ and that the parameters are adjusted automatically in real time until the error values are reduced
+ to minimum by the controller.
