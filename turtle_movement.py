@@ -1,4 +1,6 @@
 #! /usr/bin/env python
+#cd ~/catkin_ws/src
+#nano turtle_movement.py
 # run "roscore" in a new terminal
 # run"rosrun turtlesim turtlesim_node" in a new terminal
 # run (rosservice call/spawn 10 10 0 "abhiyaan") to create a new turtle
@@ -52,3 +54,5 @@ if __name__=="__main__":
 		movement()
 	except rospy.ROSInterruptException:
 		pass
+#make the code executable by
+#chmod +x turtle_movement.py
