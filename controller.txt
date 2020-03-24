@@ -1,6 +1,6 @@
 Section B.2
 The car will know its trajectory taken using a high precision GPS system or using SLAM mapping.
-For prediction of change in environment is taken care by Extended Kalman filter, because:
+For prediction of change in environment is taken care by Extended Kalman filter :
 1)It predicts the next state based on previous state only, no need for history of data. (so the 
 initial data should be correctly given)
 2)It is computationally very fast making it suitable for real time problems and it reduces noise,
