@@ -15,7 +15,7 @@ def talker():
 	rospy.init_node("publisher")
 	rate= rospy.Rate(2)
 	while not rospy.is_shutdown():
-		str="Welcome to Abhiyaan %s" %rospy.get_time()
+		str="Welcome to Abhiyaan"
 		rospy.loginfo(str)
 		pub.publish(str)
 		rate.sleep()
