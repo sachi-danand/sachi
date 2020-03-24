@@ -11,6 +11,6 @@ Relevent courses :
 Online:
 
 Andrew NG machine learning Course
-OpenCV tutorial by sentex,Programming Knowledledge(youtube channel)
+OpenCV tutorial by sentdex,Programming Knowledledge(youtube channel)
 
 
